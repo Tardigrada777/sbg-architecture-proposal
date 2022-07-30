@@ -1,0 +1,27 @@
+:host {
+  display: block;
+  --accent-color: hsla(334, 100%, 48%, 1);
+
+  --rounded-radius: 24px;
+  --shaped-radius: 8px;
+}
+
+button {
+  border-radius: 24px;
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+  color: white;
+}
+
+button.sbg-accent {
+  background-color: var(--accent-color);
+}
+
+button.rounded {
+  border-radius: var(--rounded-radius);
+}
+
+button.shaped {
+  border-radius: var(--shaped-radius);
+}
